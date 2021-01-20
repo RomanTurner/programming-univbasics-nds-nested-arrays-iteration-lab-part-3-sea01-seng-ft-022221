@@ -11,7 +11,7 @@ def join_nested_strings(src)
   end 
    row_index += 1 
   end 
-  full_sentence.join 
+  full_sentence.join(" ") 
   full_sentence
 end 
  
