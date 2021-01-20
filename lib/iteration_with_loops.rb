@@ -14,6 +14,6 @@ def join_nested_strings(src)
   end 
   full_sentence.join(" ") 
   full_sentence
-  
+  binding.pry
 end 
  
