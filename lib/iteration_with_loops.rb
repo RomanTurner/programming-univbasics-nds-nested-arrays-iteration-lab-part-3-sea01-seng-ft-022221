@@ -1,6 +1,4 @@
 def join_nested_strings(src)
-  # src will be an Array of Arrays of Strings and Integers
-  # Combine all Strings present in the AoA into a single value and return it
   full_sentence = []
   row_index = 0 
   while row_index < src.count do 
@@ -12,5 +10,7 @@ def join_nested_strings(src)
   element_index += 1 
   end 
   row_index += 1 
+end 
   full_sentence.join 
+  full_sentence
 end
