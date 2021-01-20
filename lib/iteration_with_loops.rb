@@ -1,3 +1,4 @@
+requires 'pry'
 def join_nested_strings(src)
   full_sentence = []
   row_index = 0 
@@ -13,5 +14,6 @@ def join_nested_strings(src)
   end 
   full_sentence.join(" ") 
   full_sentence
+  
 end 
  
