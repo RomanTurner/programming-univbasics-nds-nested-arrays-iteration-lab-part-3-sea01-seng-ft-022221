@@ -14,7 +14,5 @@ def join_nested_strings(src)
    row_index += 1 
   end 
   full_sentence.join(" ") 
-  full_sentence
-  binding.pry
 end 
  
