@@ -6,23 +6,11 @@ def join_nested_strings(src)
   while row_index < src.count do 
   element_index = 0 
   while element_index < src[row_index].count do 
-  src[row_index][element_index]
+  src[row_index][element_index]? String 
+  src[row_index][element_index] << full_sentence
   end 
+  element_index += 1 
   end 
-end
-
-
-##########################################
-  element_index = 0 
-  smallest_int = 100
-  while element_index < src[row_index].count do 
-    if src[row_index][element_index] < smallest_int
-      smallest_int = src[row_index][element_index]
-    end 
-    element_index += 1 
-end
-outer_results << smallest_int
-row_index += 1 
-end
-outer_results
+  row_index += 1 
+  full_sentence
 end
